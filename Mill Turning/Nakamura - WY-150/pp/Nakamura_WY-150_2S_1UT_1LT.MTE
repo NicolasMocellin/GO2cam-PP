@@ -1,0 +1,39 @@
+{#-----------------------------------------------------------------------------#
+#                              www.cam-team.com                                #
+#                                	copyright                                 	 #
+#------------------------------------------------------------------------------#
+#   CAM-Team GmbH              WEB:     www.cam-team.com                       #
+#   Boettgerstr. 2/3           Mail:    info@cam-team.com                      #
+#   DE-89231 Neu-Ulm       		 Tel DE:  +49 7311 411 43 45     							   #
+#   																																					 #
+#   CAM-Team GmbH              WEB:     www.cam-team.com                       #
+#   Weidmattstrasse 33         Mail:    info@cam-team.com                      #
+#   CH-Walterswil SO       		 Tel CH:  +41 62 534 45 52     							     #
+#                         ___                                                  #
+#                        (O O)                                                 #
+#---------------------ooO-(_)-Ooo----------------------------------------------#
+#
+# GO2cam Version   	  : 6.08.213-2022
+# Basis PP   	  	  	: T67_Fanuc.SPT
+# Maschine            : Nakamura WY-150
+# Steuerung           : Fanuc
+# Programmiert fuer   : 2-Kanal Revolver Oben+Unten/ CY-Achsen Uebergabe
+# Unterprogramme      : Nein
+# MDM-System     			: Nein
+# Kunde               : RAU AG
+# Code                : 0050569133D8,005056913BB6
+# -----------------------------------------------------------------------------#
+# Wir haften fuer Schaeden oder Fehlfunktionen, die durch diesen Postprozessor #
+# oder durch mit diesem Postprozessor betriebene Software entstehen, grund-    #
+# saetzlich nicht. Die Benutzung dieses Postprozessors erfolgt fuer Sie aus-   #
+# schliesslich auf Ihre eigene Gefahr.                                         #
+# Sind Sie mit den obigen Anmerkungen nicht Einverstanden, ist die Benutzung   #
+# des Postprozessors nicht gestattet. Wir behalten uns alle Rechte an diesem   #
+# Postprozessor vor. Unerlaubte Vervielfaeltigung ist verboten. Teilen Sie     #
+# uns alle Aenderungen unbedingt muendlich oder schriftlich mit.               #
+#                                                                              #
+# Aenderungen dieser Anmerkungen verstossen gegen das Urheberrecht.            #
+#                                                                              #
+# ******************************************************************************}
+
+

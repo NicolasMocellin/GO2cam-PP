@@ -1,0 +1,89 @@
+﻿#The number of text are coded as following
+#the 4 last digit are the number of message
+#The previous digit are the language code
+#2 : English
+#3  : French
+#4  : German
+#5  : Italian
+#6  : Spanish
+#7  : Brazilian
+#8  : Dutch
+#9  : Greek
+#10 : Russian
+#11 : Polish
+#12 : Korean
+#13 : Chinese
+#14 : Simplify Chinese
+#15 : Japanese
+#16 : Romanian
+#17 : Czech
+#18 : Turkish
+
+#ENGLISH
+6.9.A|0|20001|Package parameters
+6.9.A|0|20002|Tool offset number management
+6.9.A|0|20003|Upper turret
+6.9.A|0|20004|Lower turret
+6.9.A|0|20005|ACTIVE C AXIS
+6.9.A|0|20006|UNACTIVE C AXIS
+6.9.A|0|20007|CHANNEL1 - UPPER TURRET
+6.9.A|0|20008|CHANNEL2 - LOWER TURRET
+6.9.A|0|20009|SPINDLE BREAK OFF
+6.9.A|0|20010|Y REF + BREAK
+6.9.A|0|20011|Output options
+6.9.A|0|20012|Use Dat file-No-Yes
+6.9.A|0|20013|Offset T No
+6.9.A|0|20014|Origin Options
+6.9.A|0|20015|Main Spindle origin number
+6.9.A|0|20016|Rework Spindle origin number
+6.9.A|0|20017|Use G411 output-No-Yes
+6.9.A|0|20018|SPINDLE BREAK ON
+6.9.A|0|20019|The synchronization can not be after tool call
+6.9.A|0|20020|WARNING SPEED FACTOR x
+6.9.A|0|20021|Dat File selection
+
+#FRENCH
+6.9.A|0|30001|Paramètres du package
+6.9.A|0|30002|Paramètres numéro de correcteur outil
+6.9.A|0|30003|Tourelle haute
+6.9.A|0|30004|Tourelle basse
+6.9.A|0|30005|ACTIVE AXE C
+6.9.A|0|30006|DESACTIVE AXE C
+6.9.A|0|30007|CANAL 1 - TOURELLE HAUTE
+6.9.A|0|30008|CANAL 2 - TOURELLE BASSE
+6.9.A|0|30009|FREIN BROCHE DESACTIVE
+6.9.A|0|30010|REF Y + BLOCAGE
+6.9.A|0|30011|Options de sortie
+6.9.A|0|30012|Utiliser le fichier Dat-Non-Oui
+6.9.A|0|30013|Décaler No T
+6.9.A|0|30014|Options d'origine
+6.9.A|0|30015|Origin broche principale
+6.9.A|0|30016|Origin broche de reprise
+6.9.A|0|30017|Utiliser G411-Non-Oui
+6.9.A|0|30018|FREIN BROCHE ACTIVE
+6.9.A|0|30019|La synchronisation ne peut pas être après l'appel d'outil
+6.9.A|0|30020|ATTENTION DEMULTIPLICATION FACTEUR x
+6.9.A|0|30021|Choix fichier Dat
+
+#GERMAN
+6.9.A|0|40001|Package parameters
+6.9.A|0|40002|Tool offset number management
+6.9.A|0|40003|Rev Oben
+6.9.A|0|40004|Rev Unter
+6.9.A|0|40005|C-ACHSE EIN
+6.9.A|0|40006|C-ACHSE AUS
+6.9.A|0|40007|KANAL 1 - REV OBEN
+6.9.A|0|40008|KANAL 2 - REV UNTER
+6.9.A|0|40009|SPINDELBREMSE AUS
+6.9.A|0|40010|Y-ACHSE REF+KLEMMEN
+6.9.A|0|40011|Output options
+6.9.A|0|40012|Use Dat file-No-Yes
+6.9.A|0|40013|Offset T No
+6.9.A|0|40014|Origin Options
+6.9.A|0|40015|Main Spindle origin number
+6.9.A|0|40016|Rework Spindle origin number
+6.9.A|0|40017|Use G411 output-No-Yes
+6.9.A|0|40018|SPINDLE BREAK ON
+6.9.A|0|40019|The synchronization can not be after tool call
+6.9.A|0|40020|WARNING SPEED FACTOR x
+6.9.A|0|40021|Dat File selection
