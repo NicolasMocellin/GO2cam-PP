@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Commands>
+	<Command Label="Entry1" Duration="0.25">
+		<Program Title="Gang turret tool entry"> 
+			<Positionning Duration="0.25" MoveRef="1" ToolRef="0" Tool="Current"> 
+				 <Axis Label="Y1"> 
+					<Move Start="0" Duration="0.25" Value="0"/>
+				</Axis> 
+			</Positionning> 
+		</Program>
+	</Command>
+	<Command Label="Exit1" Duration="0.25">
+		<Program Title="Gang turret tool exit">
+			<Positionning Duration="0.25" ToolRef="0">
+				<Axis Label="X1">
+					<Move Start="0" Duration="0.25" Value="-5"/>
+				</Axis>
+			</Positionning>
+		</Program>
+		<NcBloc/>
+	</Command>
+	<Command Label="Entry2" Duration="0.25">
+		<Program Title="Gang turret tool entry"> 
+			<Positionning Duration="0.25" MoveRef="1" ToolRef="0" Tool="Current"> 
+				 <Axis Label="Y1"> 
+					<Move Start="0" Duration="0.25" Value="0"/>
+				</Axis> 
+			</Positionning> 
+		</Program>
+	</Command>
+	<Command Label="Exit2" Duration="0.25">
+		<Program Title="Gang driven tool exit">
+			<Positionning Duration="0.25" ToolRef="0">
+				<Axis Label="X1">
+					<Move Start="0" Duration="0.25" Value="-5"/>
+				</Axis>
+			</Positionning>
+		</Program>
+		<NcBloc/>
+	</Command>
+	<Command Label="PlaneChange2" Duration="0">
+
+	</Command>
+	
+	<Command Label="Entry3" Duration="0.25">
+		<Program Title="Turret tool entry">
+			<Positionning Duration="0.25">
+				<Axis Label="X3">
+					<Mini Start="0" Duration="0.25"/>
+				</Axis>
+				<Axis Label="X2">
+					<Mini Start="0" Duration="0.25"/>
+				</Axis>
+			</Positionning>
+		</Program>
+		<NcBloc/>
+	</Command>
+	
+	<Command Label="Exit3" Duration="0.25">
+		<Program Title="Turret tool exit">
+			<Positionning Duration="0.25">
+				<Axis Label="X3">
+					<Mini Start="0" Duration="0.25"/>
+				</Axis>
+				<Axis Label="X2">
+					<Mini Start="0" Duration="0.25"/>
+				</Axis>
+			</Positionning>
+		</Program>
+		<NcBloc/>
+	</Command>
+	<Command Label="Entry4" Duration="0.25">
+		<Program Title="Turret tool entry">
+			<Positionning Duration="0.25">
+				<Axis Label="X2">
+					<Mini Start="0" Duration="0.25"/>
+				</Axis>
+			</Positionning>
+		</Program>
+		<NcBloc/>
+	</Command>
+	<Command Label="Exit4" Duration="0.25">
+		<Program Title="Turret tool exit">
+			<Positionning Duration="0.25">
+				<Axis Label="X2">
+					<Mini Start="0" Duration="0.25"/>
+				</Axis>
+			</Positionning>
+		</Program>
+		<NcBloc/>
+	</Command>
+	<Command Label="Rework" Duration="0.5">
+		<Program Title="Rework" Duration="0.5">
+			<Positionning Duration="0.5">
+				<Axis Label="X3">
+					<Mini Start="0" Duration="0.5"/>
+				</Axis>
+			</Positionning>
+		</Program>
+	</Command>
+	<Command Label="Entry6" Duration="0.25">
+		<Program Title="Rack back tool entry">
+			<Positionning Duration="0.25"  MoveRef="2" ToolRef="0" Tool="Current">
+				<Axis Label="X3">
+					<Move Start="0" Duration="0.25" Value="0"/>
+				</Axis>
+			</Positionning>
+		</Program>
+	</Command>
+	<Command Label="Exit6" Duration="0.25">
+		<Program Title="Rack back tool entry">
+			<Positionning Duration="0.25"  MoveRef="2" ToolRef="0" Tool="Current">
+				<Axis Label="Z3">
+					<Mini Start="0" Duration="0.25" Value="0"/>
+				</Axis>
+			</Positionning>
+		</Program>
+	</Command>
+	
+	<Command Label="Parking1" Duration="0">
+	</Command>
+	<Command Label="Parking2" Duration="0">
+		<!-- <Program Title="Parking turret 2" Duration="0.25"> -->
+		<!-- <Positionning Duration="0.25"> -->
+		<!-- <Axis Label="X2"> -->
+		<!-- <Maxi Start="0" Duration="0.25"/> -->
+		<!-- </Axis> -->
+		<!-- </Positionning> -->
+		<!-- </Program> -->
+	</Command>
+	<Command Label="Parking3" Duration="0">
+	</Command>
+</Commands>
