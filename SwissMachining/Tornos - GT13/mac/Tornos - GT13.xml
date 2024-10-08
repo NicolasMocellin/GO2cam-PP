@@ -1,0 +1,253 @@
+<Commands>
+
+	<Command Label="Parking1" Duration="0">
+		<Program>
+		</Program>
+		<NcBloc>
+		</NcBloc>
+	</Command>
+
+	<Command Label="Parking2" Duration="0">
+		<Program>
+		</Program>
+		<NcBloc>
+		</NcBloc>
+	</Command>
+
+	<Command Label="Rework" Duration="5">
+		<Program>
+			<Positionning Duration="5.0" MoveRef="1" ToolRef="0" Tool="Current" >
+				<Axis Label="X1 Axis">
+					<Origin Start="0.0" Duration="5.0"/> 
+				</Axis>
+				<Axis Label="Y1 Axis">
+					<Origin Start="0." Duration ="5.0" /> 
+				</Axis>
+				<!-- <Axis Label="Z1 Axis"> -->
+					<!-- <Move Value="-57.5" Start="4" Duration="1" /> -->
+				<!-- </Axis> -->
+			</Positionning>
+		</Program>
+		<NcBloc>
+			<Line>G28 U0</Line>
+			<Line>G28 V0</Line>
+		</NcBloc>
+	</Command>
+
+	<Command Label="Entry1" Duration="5.0">
+		<Program Title="Turning tool mounted on rack 1">
+			<Positionning Duration="5.0" MoveRef="1" ToolRef="0" Tool="Current" >
+				<Axis Label="X1 Axis">
+					<Origin Start="0.0" Duration="5.0"/> 
+				</Axis>
+			</Positionning>
+		</Program>
+		<NcBloc>
+			<Line>G28 U0</Line>
+		</NcBloc>
+	</Command>
+	
+	<Command Label="Exit1" Duration="5.0">
+		<Program>
+			<Positionning Duration="5.0" MoveRef="1" ToolRef="0" Tool="Current" >
+				<Axis Label="X1 Axis">
+					<Origin Start="0.0" Duration="5.0"/> 
+				</Axis>
+			</Positionning>
+		</Program>
+		<NcBloc>
+			<Line>G28 U0</Line>
+		</NcBloc>
+	</Command>
+
+	<Command Label="Entry2" Duration="5.0">
+		<Program Title="Milling tool mounted on rack 1">
+			<Positionning Duration="5.0" MoveRef="1" ToolRef="0" Tool="Current" >
+				<Axis Label="X1 Axis">
+					<Origin Start="0.0" Duration="5.0"/> 
+				</Axis>
+			</Positionning>
+		</Program>
+		<NcBloc>
+			<Line>G28 U0</Line>
+		</NcBloc>
+	</Command>
+	<Command Label="Exit2" Duration="5.0">
+		<Program>
+			<Positionning Duration="5.0" MoveRef="1" ToolRef="0" Tool="Current" >
+				<Axis Label="X1 Axis">
+					<Origin Start="0.0" Duration="5.0"/> 
+				</Axis>
+			</Positionning>
+		</Program>
+		<NcBloc>
+			<Line>G28 U0</Line>
+		</NcBloc>
+	</Command>
+	
+	<Command Label="PlaneChange2" Duration="0">
+		<Program>
+		</Program>
+		<NcBloc>
+		</NcBloc>
+	</Command>
+	
+	<Command Label="Entry3" Duration="5.0">
+		<Program Title="Turning tool mounted in rack 1 in front of tool of group 1">
+			<Positionning Duration="5.0" MoveRef="1" ToolRef="0" Tool="Current" >
+				<Axis Label="X1 Axis">
+					<Origin Start="0.0" Duration="5.0"/> 
+				</Axis>
+			</Positionning>
+		</Program>
+		<NcBloc>
+			<Line>G28 U0</Line>
+		</NcBloc>
+	</Command>
+	
+	<Command Label="Exit3" Duration="5.0">
+		<Program>
+			<Positionning Duration="5.0" MoveRef="1" ToolRef="0" Tool="Current" >
+				<Axis Label="X1 Axis">
+					<Origin Start="0.0" Duration="5.0"/> 
+				</Axis>
+			</Positionning>
+		</Program>
+		<NcBloc>
+			<Line>G28 U0</Line>
+		</NcBloc>
+	</Command>
+
+	<Command Label="Entry4" Duration="5.0">
+		<Program Title="Front tool for main spdindle mounted on rack 1">
+			<Positionning Duration="5.0" MoveRef="1" ToolRef="0" Tool="Current" >
+				<Axis Label="Z1 Axis">
+					<Origin Start="0" Duration="5.0" />
+				</Axis>
+			</Positionning>
+		</Program>
+		<NcBloc>
+			<Line>G0 Z0</Line>
+		</NcBloc>
+	</Command>
+	
+	<Command Label="Exit4" Duration="5.0">
+		<Program>
+			<Positionning Duration="5.0" MoveRef="1" ToolRef="0" Tool="Current" >
+				<Axis Label="Z1 Axis">
+					<Origin Start="0" Duration="5.0" />
+				</Axis>
+			</Positionning>
+		</Program>
+		<NcBloc>
+			<Line>G0 Z0</Line>
+		</NcBloc>
+	</Command>
+
+
+	<Command Label="Entry5" Duration="5.0">
+		<Program Title="Front tool for rework spindle mounted on rack 1">
+			<Positionning Duration="5.0" MoveRef="2" ToolRef="0" Tool="Current" >
+				<Axis Label="Z4 Axis">
+					<Origin Start="0.0" Duration="5.0"/> 
+				</Axis>
+			</Positionning>
+		</Program>
+		<NcBloc>
+			<Line>G28 W0</Line>
+		</NcBloc>
+	</Command>
+	
+	<Command Label="Exit5" Duration="5.0">
+		<Program>
+			<Positionning Duration="5.0" MoveRef="2" ToolRef="0" Tool="Current" >
+				<Axis Label="Z4 Axis">
+					<Origin Start="0.0" Duration="5.0"/> 
+				</Axis>
+			</Positionning>
+		</Program>
+		<NcBloc>
+			<Line>G28 W0</Line>
+		</NcBloc>
+	</Command>
+
+	<Command Label="Entry6" Duration="5.0">
+		<Program Title="Tool for rework spindle mounted on rack 2">
+			<Positionning Duration="5.0" MoveRef="2" ToolRef="0" Tool="Current" >
+				<Axis Label="Z4 Axis">
+					<Origin Start="0.0" Duration="5.0"/> 
+				</Axis>
+			</Positionning>
+		</Program>
+		<NcBloc>
+			<Line>G28 W0</Line>
+		</NcBloc>
+	</Command>
+	
+	<Command Label="Exit6" Duration="5">
+		<Program>
+			<Positionning Duration="5.0" MoveRef="2" ToolRef="0" Tool="Current" >
+				<Axis Label="Z4 Axis">
+					<Origin Start="0.0" Duration="5.0"/> 
+				</Axis>
+			</Positionning>
+		</Program>
+		<NcBloc>
+			<Line>G28 W0</Line>
+		</NcBloc>
+	</Command>
+	
+	<Command Label="Entry7" Duration="5.0">
+		<Program Title="Milling tool for rework spindle mounted on rack 2">
+			<Positionning Duration="5.0" MoveRef="2" ToolRef="0" Tool="Current" >
+				<Axis Label="Z4 Axis">
+					<Origin Start="0.0" Duration="5.0"/> 
+				</Axis>
+			</Positionning>
+		</Program>
+		<NcBloc>
+			<Line>G28 W0</Line>
+		</NcBloc>
+	</Command>
+	<Command Label="Exit7" Duration="5">
+		<Program>
+			<Positionning Duration="5.0" MoveRef="2" ToolRef="0" Tool="Current" >
+				<Axis Label="Z4 Axis">
+					<Origin Start="0.0" Duration="5.0"/> 
+				</Axis>
+			</Positionning>
+		</Program>
+		<NcBloc>
+			<Line>G28 W0</Line>
+		</NcBloc>
+	</Command>
+	
+	<Command Label="Entry8" Duration="5.0">
+		<Program Title="Radial support for B manual tool holder">
+			<Positionning Duration="5.0" MoveRef="1" ToolRef="0" Tool="Current" >
+				<Axis Label="X1 Axis">
+					<Origin Start="0.0" Duration="5.0"/> 
+				</Axis>
+			</Positionning>
+		</Program>
+		<NcBloc>
+			<Line>G28 U0</Line>
+		</NcBloc>
+	</Command>
+	
+	<Command Label="Exit8" Duration="5.0">
+		<Program>
+			<Positionning Duration="5.0" MoveRef="1" ToolRef="0" Tool="Current" >
+				<Axis Label="X1 Axis">
+					<Origin Start="0.0" Duration="5.0"/> 
+				</Axis>
+			</Positionning>
+		</Program>
+		<NcBloc>
+			<Line>G28 U0</Line>
+		</NcBloc>
+	</Command>
+	
+</Commands>
+
+
